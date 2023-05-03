@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15464" started-at="2022-11-24T09:36:53 IST" finished-at="2022-11-24T09:37:08 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15464" started-at="2022-11-24T09:36:53 IST" finished-at="2022-11-24T09:37:08 IST">
+      <class name="practicetestng.TestngDummy24">
+        <test-method status="PASS" signature="method1()[pri:0, instance:practicetestng.TestngDummy24@4148db48]" name="method1" is-config="true" duration-ms="15" started-at="2022-11-24T09:36:53 IST" finished-at="2022-11-24T09:36:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="magnitia()[pri:1, instance:practicetestng.TestngDummy24@4148db48]" name="magnitia" duration-ms="10619" started-at="2022-11-24T09:36:53 IST" finished-at="2022-11-24T09:37:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- magnitia -->
+        <test-method status="PASS" signature="method4()[pri:0, instance:practicetestng.TestngDummy24@4148db48]" name="method4" is-config="true" duration-ms="4805" started-at="2022-11-24T09:37:03 IST" finished-at="2022-11-24T09:37:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method4 -->
+      </class> <!-- practicetestng.TestngDummy24 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

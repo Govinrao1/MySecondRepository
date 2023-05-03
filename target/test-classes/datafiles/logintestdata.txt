@@ -1,0 +1,5 @@
+magnitiait,valid,44@Magnitia,valid
+magnitianonit,invalid,N/A,N/A
+magnitiait,valid,45@Magnitia,invalid
+,blank,N/A,N/A
+magnitiait,valid,,blank

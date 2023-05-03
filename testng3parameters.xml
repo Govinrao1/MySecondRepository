@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="country" value="India"/>
+  <test name="Test1">
+  	<parameter name="firstname" value="abdul"/>
+  	<parameter name="lastname" value="kalam"/>
+  	<classes>
+  		<class name="practicetestng.TestngDummy16"/>
+  	</classes>
+  </test> 
+  <test name="Test2">
+  	<parameter name="firstname" value="indra"/>
+  	<parameter name="lastname" value="nuyi"/>
+  	<classes>
+  		<class name="practicetestng.TestngDummy16"/>
+  	</classes>
+  </test>
+</suite> 

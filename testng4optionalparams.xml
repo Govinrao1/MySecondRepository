@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test1">
+  	<classes>
+  		<class name="practicetestng.TestngDummy17"/>
+  	</classes>
+  </test> 
+  <test name="Test2">
+  	<parameter name="lastname" value="kohli"></parameter>
+  	<classes>
+  		<class name="practicetestng.TestngDummy17"/>
+  	</classes>
+  </test>
+  <test name="Test3">
+  	<parameter name="firstname" value="indra"></parameter>
+  	<classes>
+  		<class name="practicetestng.TestngDummy17"/>
+  	</classes>
+  </test>
+  <test name="Test4">
+  	<parameter name="firstname" value="indra"></parameter>
+  	<parameter name="lastname" value="nuyi"></parameter>
+  	<classes>
+  		<class name="practicetestng.TestngDummy17"/>
+  	</classes>
+  </test>
+</suite> 

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
+  <reporter-output>
+    <line>
+      <![CDATA[Uid blank test passed]]>
+    </line>
+    <line>
+      <![CDATA[No need for pwd testing]]>
+    </line>
+    <line>
+      <![CDATA[Valid UID test passed]]>
+    </line>
+    <line>
+      <![CDATA[Valid UID test passed]]>
+    </line>
+    <line>
+      <![CDATA[Valid UID test passed]]>
+    </line>
+    <line>
+      <![CDATA[Invalid UID test passed]]>
+    </line>
+    <line>
+      <![CDATA[No need for pwd testing]]>
+    </line>
+    <line>
+      <![CDATA[PWD blank test passed]]>
+    </line>
+    <line>
+      <![CDATA[Invalid PWD test passed]]>
+    </line>
+    <line>
+      <![CDATA[Valid PWD test passed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36176" started-at="2021-12-19T15:56:21 IST" finished-at="2021-12-19T15:56:58 IST">
+    <groups>
+    </groups>
+    <test name="Iteration2" duration-ms="22053" started-at="2021-12-19T15:56:21 IST" finished-at="2021-12-19T15:56:43 IST">
+      <class name="tests.LoginTest4WithXml">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTest4WithXml@51c8530f]" name="setup" is-config="true" duration-ms="30" started-at="2021-12-19T15:56:21 IST" finished-at="2021-12-19T15:56:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:1, instance:tests.LoginTest4WithXml@51c8530f]" name="launch" duration-ms="14852" started-at="2021-12-19T15:56:21 IST" finished-at="2021-12-19T15:56:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="uidTest(java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest4WithXml@51c8530f]" name="uidTest" duration-ms="5921" started-at="2021-12-19T15:56:36 IST" finished-at="2021-12-19T15:56:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[blank]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Uid blank test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- uidTest -->
+        <test-method status="PASS" signature="pwdTest(java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest4WithXml@51c8530f]" name="pwdTest" duration-ms="0" started-at="2021-12-19T15:56:42 IST" depends-on-methods="tests.LoginTest4WithXml.uidTest" finished-at="2021-12-19T15:56:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[N/A]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N/A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[No need for pwd testing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pwdTest -->
+        <test-method status="PASS" signature="close()[pri:4, instance:tests.LoginTest4WithXml@51c8530f]" name="close" duration-ms="1208" started-at="2021-12-19T15:56:42 IST" finished-at="2021-12-19T15:56:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.LoginTest4WithXml -->
+    </test> <!-- Iteration2 -->
+    <test name="Iteration3" duration-ms="22943" started-at="2021-12-19T15:56:21 IST" finished-at="2021-12-19T15:56:44 IST">
+      <class name="tests.LoginTest4WithXml">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTest4WithXml@75881071]" name="setup" is-config="true" duration-ms="28" started-at="2021-12-19T15:56:21 IST" finished-at="2021-12-19T15:56:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:1, instance:tests.LoginTest4WithXml@75881071]" name="launch" duration-ms="16705" started-at="2021-12-19T15:56:21 IST" finished-at="2021-12-19T15:56:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="uidTest(java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest4WithXml@75881071]" name="uidTest" duration-ms="5385" started-at="2021-12-19T15:56:38 IST" finished-at="2021-12-19T15:56:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[magnitia@nonit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid UID test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- uidTest -->
+        <test-method status="PASS" signature="pwdTest(java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest4WithXml@75881071]" name="pwdTest" duration-ms="0" started-at="2021-12-19T15:56:44 IST" depends-on-methods="tests.LoginTest4WithXml.uidTest" finished-at="2021-12-19T15:56:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[N/A]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N/A]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[No need for pwd testing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pwdTest -->
+        <test-method status="PASS" signature="close()[pri:4, instance:tests.LoginTest4WithXml@75881071]" name="close" duration-ms="783" started-at="2021-12-19T15:56:44 IST" finished-at="2021-12-19T15:56:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.LoginTest4WithXml -->
+    </test> <!-- Iteration3 -->
+    <test name="Iteration4" duration-ms="27573" started-at="2021-12-19T15:56:21 IST" finished-at="2021-12-19T15:56:49 IST">
+      <class name="tests.LoginTest4WithXml">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTest4WithXml@3891771e]" name="setup" is-config="true" duration-ms="30" started-at="2021-12-19T15:56:21 IST" finished-at="2021-12-19T15:56:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:1, instance:tests.LoginTest4WithXml@3891771e]" name="launch" duration-ms="14372" started-at="2021-12-19T15:56:21 IST" finished-at="2021-12-19T15:56:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="uidTest(java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest4WithXml@3891771e]" name="uidTest" duration-ms="6523" started-at="2021-12-19T15:56:36 IST" finished-at="2021-12-19T15:56:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[magnitiait]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Valid UID test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- uidTest -->
+        <test-method status="PASS" signature="pwdTest(java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest4WithXml@3891771e]" name="pwdTest" duration-ms="5469" started-at="2021-12-19T15:56:42 IST" depends-on-methods="tests.LoginTest4WithXml.uidTest" finished-at="2021-12-19T15:56:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[blank]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PWD blank test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pwdTest -->
+        <test-method status="PASS" signature="close()[pri:4, instance:tests.LoginTest4WithXml@3891771e]" name="close" duration-ms="1137" started-at="2021-12-19T15:56:48 IST" finished-at="2021-12-19T15:56:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.LoginTest4WithXml -->
+    </test> <!-- Iteration4 -->
+    <test name="Iteration5" duration-ms="28584" started-at="2021-12-19T15:56:21 IST" finished-at="2021-12-19T15:56:50 IST">
+      <class name="tests.LoginTest4WithXml">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTest4WithXml@12c8a2c0]" name="setup" is-config="true" duration-ms="30" started-at="2021-12-19T15:56:21 IST" finished-at="2021-12-19T15:56:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:1, instance:tests.LoginTest4WithXml@12c8a2c0]" name="launch" duration-ms="15775" started-at="2021-12-19T15:56:21 IST" finished-at="2021-12-19T15:56:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="uidTest(java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest4WithXml@12c8a2c0]" name="uidTest" duration-ms="6164" started-at="2021-12-19T15:56:37 IST" finished-at="2021-12-19T15:56:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[magnitiait]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Valid UID test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- uidTest -->
+        <test-method status="PASS" signature="pwdTest(java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest4WithXml@12c8a2c0]" name="pwdTest" duration-ms="5626" started-at="2021-12-19T15:56:43 IST" depends-on-methods="tests.LoginTest4WithXml.uidTest" finished-at="2021-12-19T15:56:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Magnitia@05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid PWD test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pwdTest -->
+        <test-method status="PASS" signature="close()[pri:4, instance:tests.LoginTest4WithXml@12c8a2c0]" name="close" duration-ms="952" started-at="2021-12-19T15:56:49 IST" finished-at="2021-12-19T15:56:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.LoginTest4WithXml -->
+    </test> <!-- Iteration5 -->
+    <test name="Iteration1" duration-ms="36176" started-at="2021-12-19T15:56:21 IST" finished-at="2021-12-19T15:56:58 IST">
+      <class name="tests.LoginTest4WithXml">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.LoginTest4WithXml@77f99a05]" name="setup" is-config="true" duration-ms="28" started-at="2021-12-19T15:56:21 IST" finished-at="2021-12-19T15:56:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:1, instance:tests.LoginTest4WithXml@77f99a05]" name="launch" duration-ms="14710" started-at="2021-12-19T15:56:21 IST" finished-at="2021-12-19T15:56:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="uidTest(java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest4WithXml@77f99a05]" name="uidTest" duration-ms="6355" started-at="2021-12-19T15:56:36 IST" finished-at="2021-12-19T15:56:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[magnitiait]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Valid UID test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- uidTest -->
+        <test-method status="PASS" signature="pwdTest(java.lang.String,java.lang.String)[pri:3, instance:tests.LoginTest4WithXml@77f99a05]" name="pwdTest" duration-ms="14395" started-at="2021-12-19T15:56:43 IST" depends-on-methods="tests.LoginTest4WithXml.uidTest" finished-at="2021-12-19T15:56:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Magnitia@43]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Valid PWD test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- pwdTest -->
+        <test-method status="PASS" signature="close()[pri:4, instance:tests.LoginTest4WithXml@77f99a05]" name="close" duration-ms="644" started-at="2021-12-19T15:56:57 IST" finished-at="2021-12-19T15:56:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.LoginTest4WithXml -->
+    </test> <!-- Iteration1 -->
+  </suite> <!-- Suite -->
+</testng-results>

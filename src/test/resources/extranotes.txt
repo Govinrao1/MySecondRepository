@@ -1,0 +1,18 @@
+How to use Email output in Selenium:
+Step-1: add below dependency to pom.xml file
+       <dependency>
+       	<groupId>com.sun.mail</groupId>
+       	<artifactId>javax.mail</artifactId>
+       	<version>1.6.2</version>
+       </dependency>
+Step-2: configure your account when we are using Gmail server
+	Google stopped supporting "Less Secure Apps" as of May 30th, 2022.
+	One of the alternatives to solve this problem is to use 2-Step Verification
+	and generate app password:
+	Google Account -> Security -> 2-Step Verification -> Input password as asked -> 
+	Turn ON (you could use SMS to get Gmail code to activate 2-Step Verification)
+	Google Account -> Security -> App password -> Input password as asked -> 
+	Select the app and device... -> e.g. Other(Custom name) -> Input app name 
+	e.g. MyApp -> Generate -> Copy a 16-character password -> Use a 16-character 
+	password with Gmail username in our automation code.
+Step-3: Refer TestngDummy24
